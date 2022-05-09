@@ -1,4 +1,4 @@
-package ru.vibelab.stompwebsocket.domain;
+package ru.vibelab.stompwebsocket.requests;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,6 +9,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class HelloMessage {
+public class UserCreateRequest {
     private String name;
+    private String password;
 }
